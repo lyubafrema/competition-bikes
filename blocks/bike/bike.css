@@ -1,0 +1,9 @@
+.bike {
+  padding: 60px 0;
+  margin: 0 auto;
+  max-width: calc(100% - (120px * 2));
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 140px 0;
+}
