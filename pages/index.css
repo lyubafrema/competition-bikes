@@ -1,29 +1,5 @@
 @import url(../vendor/normalize.css);
-
 @import url(../vendor/fonts/Inter_Web/inter.css);
-@import url(../blocks/root/root.css);
-@import url(../blocks/section/section.css);
-@import url(../blocks/section/__title/section__title.css);
-@import url(../blocks/section/__subtitle/section__subtitle.css);
-@import url(../blocks/start-section/start-section.css);
-@import url(../blocks/start-section/__button/start-section__button.css);
-@import url(../blocks/start-section/__button-text/start-section__button-text.css);
-@import url(../blocks/start-section/__maybelink/start-section__maybelink.css);
-@import url(../blocks/start-section/__image/start-section__image.css);
-@import url(../blocks/highway-section/highway-section.css);
-@import url(../blocks/highway-section/__label/highway-section__label.css);
-@import url(../blocks/highway-section/__images/highway-section__images.css);
-@import url(../blocks/highway-section/__image/highway-section__image.css);
-@import url(../blocks/highway-section/__buttons/highway-section__buttons.css);
-@import url(../blocks/highway-section/__button/highway-section__button.css);
-@import url(../blocks/training-section/training-section.css);
-@import url(../blocks/training-section/__links/training-section__links.css);
-@import url(../blocks/training-section/__link/training-section__link.css);
-@import url(../blocks/training-section/__image/training-section__image.css);
-=======
-
-@import url(../vendor/fonts/fonts.css);
-
 @import url(../blocks/root/root.css);
 @import url(../blocks/page/page.css);
 
@@ -39,6 +15,14 @@
 /*MAIN*/
 
 /*SECTION 1*/
+@import url(../blocks/section/section.css);
+@import url(../blocks/section/__title/section__title.css);
+@import url(../blocks/section/__subtitle/section__subtitle.css);
+@import url(../blocks/start-section/start-section.css);
+@import url(../blocks/start-section/__button/start-section__button.css);
+@import url(../blocks/start-section/__button-text/start-section__button-text.css);
+@import url(../blocks/start-section/__maybelink/start-section__maybelink.css);
+@import url(../blocks/start-section/__image/start-section__image.css);
 
 /*SECTION 2 - BLOCKQUOTE*/
 @import url(../blocks/quote/quote.css);
@@ -52,6 +36,12 @@
 @import url();
 
 /*SECTION 3*/
+@import url(../blocks/highway-section/highway-section.css);
+@import url(../blocks/highway-section/__label/highway-section__label.css);
+@import url(../blocks/highway-section/__images/highway-section__images.css);
+@import url(../blocks/highway-section/__image/highway-section__image.css);
+@import url(../blocks/highway-section/__buttons/highway-section__buttons.css);
+@import url(../blocks/highway-section/__button/highway-section__button.css);
 
 /*SECTION 4 - CARD LIST BIKE*/
 @import url(../blocks/bike/bike.css);
@@ -69,6 +59,10 @@
 @import url(../blocks/filter/__link/_active/filter__link_active.css);
 
 /*SECTION 5*/
+@import url(../blocks/training-section/training-section.css);
+@import url(../blocks/training-section/__links/training-section__links.css);
+@import url(../blocks/training-section/__link/training-section__link.css);
+@import url(../blocks/training-section/__image/training-section__image.css);
 
 /*FOOTER*/
 @import url(../blocks/footer/footer.css);
