@@ -4,3 +4,12 @@
   margin: 50px 0 0 0;
   padding: 0;
 }
+
+@media screen and (max-width: 320px) {
+  .highway-section__buttons {
+    position: absolute;
+    margin: 0;
+    top: 87px;
+    right: 0;
+  }
+}

@@ -4,3 +4,11 @@
   margin: 0;
   padding: 0;
 }
+
+@media screen and (max-width: 320px) {
+  .start-section__image {
+    width: 254px;
+    height: 348px;
+    margin: 0 0 0 auto;
+  }
+}

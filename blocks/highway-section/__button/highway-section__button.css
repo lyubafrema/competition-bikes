@@ -29,9 +29,30 @@
 }
 
 .highway-section__button:nth-of-type(2)::before {
-  left: 70px;
+  left: calc(50px + 20px);
 }
 
 .highway-section__button:hover::before {
   opacity: 0.1;
+}
+
+@media screen and (max-width: 320px) {
+  .highway-section__button {
+    width: 24px;
+    height: 24px;
+    background: #EBEBEB url(../../../images/button-left.svg) no-repeat center / 4.5px 10px;
+    border-radius: 30px;
+  }
+  .highway-section__button:nth-of-type(2) {
+    background: #EBEBEB url(../../../images/button-right.svg) no-repeat center / 4.5px 10px;
+    margin: 0 0 0 10px;
+  }
+  .highway-section__button::before  {
+    width: 24px;
+    height: 24px;
+    border-radius: 30px;
+  }
+  .highway-section__button:nth-of-type(2)::before {
+    left: calc(24px + 10px);
+  }
 }

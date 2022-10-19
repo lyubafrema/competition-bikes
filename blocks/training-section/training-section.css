@@ -6,3 +6,11 @@
   flex-direction: column;
   flex-wrap: wrap;
 }
+
+@media screen and (max-width: 320px) {
+  .training-section {
+    max-height: 635px;
+    padding: 80px 0 60px 0;
+    flex-wrap: nowrap;
+  }
+}

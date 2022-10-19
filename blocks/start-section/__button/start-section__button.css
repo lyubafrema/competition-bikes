@@ -25,3 +25,11 @@
 .start-section__button:hover::before {
   opacity: 0.2;
 }
+
+@media screen and (max-width: 320px) {
+  .start-section__button {
+    width: 284px;
+    height: 46px;
+    margin: 40px 0 0 0;
+  }
+}

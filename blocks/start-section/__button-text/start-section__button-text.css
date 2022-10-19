@@ -8,3 +8,10 @@
   letter-spacing: 1px;
   z-index: 1;
 }
+
+@media screen and (max-width: 320px) {
+  .start-section__button-text {
+    font-size: 13px;
+    line-height: 1.46;
+  }
+}

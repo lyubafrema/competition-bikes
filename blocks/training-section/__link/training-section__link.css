@@ -18,3 +18,10 @@
 .training-section__link:hover {
   opacity: 0.8;
 }
+
+@media screen and (max-width: 320px) {
+  .training-section__link {
+    font-size: 14px;
+    line-height: 1.43;
+  }
+}

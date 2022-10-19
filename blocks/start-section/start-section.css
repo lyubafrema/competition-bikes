@@ -7,3 +7,11 @@
   flex-wrap: wrap;
   align-content: space-between;
 }
+
+
+@media screen and (max-width: 320px) {
+  .start-section {
+    max-height: 746px;
+    padding: 40px 0;
+  }
+}

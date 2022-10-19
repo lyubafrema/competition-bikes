@@ -3,3 +3,9 @@
   padding: 0;
   display: flex;
 }
+
+@media screen and (max-width: 320px) {
+  .training-section__links {
+    margin: 40px 0 0 0;
+  }
+}

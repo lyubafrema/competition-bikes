@@ -9,3 +9,13 @@
   margin: 0;
   padding: 50px 0 0 0;
 }
+
+@media screen and (max-width: 320px) {
+  .section__subtitle {
+    font-size: 12px;
+    line-height: 1.5;
+    max-width: 284px;
+    padding: 40px 0 0 0;
+    order: 3;
+  }
+}

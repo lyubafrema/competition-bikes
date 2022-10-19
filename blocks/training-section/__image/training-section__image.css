@@ -1,3 +1,5 @@
-.training-section__image {
-
+@media screen and (max-width: 320px) {
+  .training-section__image {
+    order: -1;
+  }
 }

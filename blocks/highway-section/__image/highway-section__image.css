@@ -1,6 +1,5 @@
 .highway-section__image {
   width: 650px;
-  height: 400px;
   margin: 0 40px 0 0;
   padding: 0;
   object-fit: contain;
@@ -8,4 +7,14 @@
 
 .highway-section__image:last-child {
   margin: 0;
+}
+
+@media screen and (max-width: 320px) {
+  .highway-section__image {
+    width: 100%;
+    margin: 0;
+  }
+  .highway-section__image:last-child {
+    display: none;
+  }
 }
