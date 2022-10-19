@@ -6,11 +6,49 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Bikes</title>
+  <link rel="stylesheet" href="./pages/index.css">
 </head>
 
-<body>
-  <section>
-    <h1>Шоссе, ТТ и Грэвел</h1>
+<body class="root">
+  <section class="section start-section">
+    <div class="start-section__container">
+      <h1 class="section__title">Шоссе, ТТ и Грэвел</h1>
+      <p class="section__subtitle">Триатлонные старты, горные серпантины или грейвел заезды по живописным
+        маршрутам – нужно только определиться с выбором велосипеда и отправиться в путь.</p>
+      <a class="start-section__button" href="#" target="_blank">
+        <p class="start-section__button-text">Подробнее</p>
+      </a>
+      <p class="start-section__maybelink">Cannondale Systemsix</p>
+    </div>
+    <img class="start-section__image" src="./images/section-1.png"
+      alt="Грунтовая дорога через хвойный лес на фоне гор.">
+  </section>
+  <section class="section highway-section">
+    <h2 class="section__title">Шоссе</h2>
+    <p class="section__subtitle">На шоссейном велосипеде можно ездить по асфальту на разных градиентах: будь то горы или
+      равнины. Гонки проходят в командном пелотоне, но тренироваться можно и самостоятельно.</p>
+    <div class="highway-section__images">
+      <img src="./images/label.png" class="highway-section__label">
+      <img class="highway-section__image" src="./images/highway-1.png" alt="Пустое шоссе вдоль скал.">
+      <img class="highway-section__image" src="./images/highway-2.png"
+        alt="Велосипедист едет по дороге через густой лес.">
+    </div>
+    <div class="highway-section__buttons">
+      <button class="highway-section__button"></button>
+      <button class="highway-section__button"></button>
+    </div>
+  </section>
+  <section class="section training-section">
+    <div>
+      <h2 class="section__title">Тренировки</h2>
+      <p class="section__subtitle">Чтобы найти маршрут для тренировки можно воспользоваться сервисом Komoot, а записать
+        эти тренировки поможет приложение Strava, а также это приложение позволит построить тренировочный план.</p>
+      <div class="training-section__links">
+        <a class="training-section__link" href="https://www.strava.com" target="_blank">Strava</a>
+        <a class="training-section__link" href="https://www.komoot.com" target="_blank">Komoot</a>
+      </div>
+    </div>
+    <img class="training-section__image" src="./images/training.png" alt="Поворот дороги, на обочинах высокие деревья.">
   </section>
 </body>
 

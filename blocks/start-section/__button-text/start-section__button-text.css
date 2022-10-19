@@ -1,0 +1,10 @@
+.start-section__button-text {
+  color: #FFFFFF;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.29;
+  text-align: center;
+  letter-spacing: 1px;
+  z-index: 1;
+}

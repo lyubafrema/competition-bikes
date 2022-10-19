@@ -1,0 +1,37 @@
+.highway-section__button {
+  width: 50px;
+  height: 50px;
+  background: #EBEBEB url(../../../images/button-left.svg) no-repeat center / 7px 16px;
+  border-radius: 50px;
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+.highway-section__button:nth-of-type(2) {
+  background: #EBEBEB url(../../../images/button-right.svg) no-repeat center / 7px 16px;
+  margin: 0 0 0 20px;
+}
+
+.highway-section__button::before {
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  margin: 0;
+  padding: 0;
+  background-color: #222222;
+  opacity: 0;
+  transition: opacity 0.1s ease-in-out;
+  border-radius: 50px;
+  border: none;
+  top: 0;
+  left: 0;
+}
+
+.highway-section__button:nth-of-type(2)::before {
+  left: 70px;
+}
+
+.highway-section__button:hover::before {
+  opacity: 0.1;
+}
