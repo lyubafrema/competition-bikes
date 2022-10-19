@@ -1,4 +1,9 @@
 .root {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 0 0 120px;
+  background-color: #F4F4F4;
+  font-family: 'Inter', Arial, sans-serif;
   background-color: #f4f4f4;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;

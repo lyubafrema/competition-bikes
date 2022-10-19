@@ -1,0 +1,11 @@
+.highway-section__image {
+  width: 650px;
+  height: 400px;
+  margin: 0 40px 0 0;
+  padding: 0;
+  object-fit: contain;
+}
+
+.highway-section__image:last-child {
+  margin: 0;
+}

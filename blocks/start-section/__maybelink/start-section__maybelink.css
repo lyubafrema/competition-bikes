@@ -1,0 +1,21 @@
+.start-section__maybelink {
+  position: relative;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1;
+  color: #151515;
+  margin: 0;
+  padding: 0;
+  max-width: 194px;
+}
+
+.start-section__maybelink::after {
+  content: "";
+  position: absolute;
+  width: 132px;
+  height: 2px;
+  margin: 8px 0 0 30px;
+  padding: 0;
+  background-color: #D7D4D4;
+}
