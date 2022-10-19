@@ -1,4 +1,4 @@
-.start-section__maybelink {
+.start-section__text {
   position: relative;
   font-style: normal;
   font-weight: 400;
@@ -10,7 +10,7 @@
   max-width: 194px;
 }
 
-.start-section__maybelink::after {
+.start-section__text::after {
   content: "";
   position: absolute;
   width: 132px;
