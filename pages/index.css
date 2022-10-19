@@ -1,0 +1,55 @@
+@import url(../vendor/normalize.css);
+
+@import url(../vendor/fonts/fonts.css);
+
+@import url(../blocks/root/root.css);
+@import url(../blocks/page/page.css);
+
+/*HEADER*/
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__nav/header__nav.css);
+@import url(../blocks/header/__links/header__links.css);
+@import url(../blocks/header/__link/header__link.css);
+@import url(../blocks/burger-menu/burger-menu.css);
+@import url(../blocks/burger-menu/__line/burger-menu__line.css);
+@import url();
+
+/*MAIN*/
+
+/*SECTION 1*/
+
+/*SECTION 2 - BLOCKQUOTE*/
+@import url(../blocks/quote/quote.css);
+@import url(../blocks/quote/__image/quote__image.css);
+@import url(../blocks/quote/__container/quote__container.css);
+@import url(../blocks/quote/__text/quote__text.css);
+@import url(../blocks/quote/__author/quote__author.css);
+@import url(../blocks/quote/__author-name/quote__author-name.css);
+@import url(../blocks/quote/__author-prof/quote__author-prof.css);
+@import url();
+@import url();
+
+/*SECTION 3*/
+
+/*SECTION 4 - CARD LIST BIKE*/
+@import url(../blocks/bike/bike.css);
+@import url(../blocks/bike/__title/bike__title.css);
+@import url(../blocks/bike/__list/bike__list.css);
+@import url(../blocks/bike/__item/bike__item.css);
+@import url(../blocks/bike/__card/bike__card.css);
+@import url(../blocks/bike/__border-img/bike__border-img.css);
+@import url(../blocks/bike/__img/bike__img.css);
+@import url(../blocks/bike/__link/bike__link.css);
+@import url(../blocks/filter/filter.css);
+@import url(../blocks/filter/__list/filter__list.css);
+@import url(../blocks/filter/__item/filter__item.css);
+@import url(../blocks/filter/__link/filter__link.css);
+@import url(../blocks/filter/__link/_active/filter__link_active.css);
+
+/*SECTION 5*/
+
+/*FOOTER*/
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__title/footer__title.css);
+@import url(../blocks/footer/__email/footer__email.css);
+@import url(../blocks/footer/__subtitle/footer__subtitle.css);
