@@ -2,11 +2,13 @@
   width: 650px;
   margin: 0 40px 0 0;
   padding: 0;
-  object-fit: contain;
+  object-fit: cover;
 }
 
 .highway-section__image:last-child {
   margin: 0;
+  overflow: hidden;
+  object-position: left;
 }
 
 @media screen and (max-width: 768px) {
