@@ -18,6 +18,7 @@
 /*SECTION 1*/
 @import url(../blocks/section/section.css);
 @import url(../blocks/section/__title/section__title.css);
+@import url(../blocks/section/__title/_start/section__title_start.css);
 @import url(../blocks/section/__subtitle/section__subtitle.css);
 @import url(../blocks/start-section/start-section.css);
 @import url(../blocks/start-section/__container/start-section__container.css);

@@ -1,5 +1,23 @@
+.training-section__image {
+  min-width: 284px;
+  width: 100%;
+  margin: 0;
+  padding: 0 0 0 18px;
+  grid-row: 1 / 3;
+  grid-column: 2 / 3;
+  object-fit: contain;
+}
+
+@media screen and (max-width: 768px) {
+  .training-section__image {
+    grid-row: 2 / 3;
+    grid-column: 1 / 1;
+    margin: 40px 0;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .training-section__image {
-    order: -1;
+    margin: 0;
   }
 }

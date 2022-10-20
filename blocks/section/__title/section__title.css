@@ -10,6 +10,24 @@
   padding: 0;
 }
 
+@media screen and (max-width: 1200px) {
+  .section__title {
+    max-width: 350px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .section__title {
+    font-size: 48px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .section__title {
+    max-width: 732px;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .section__title {
     max-width: 284px;

@@ -1,17 +1,22 @@
 .start-section {
-  max-height: 856px;
+  max-width: 100%;
   padding: 20px 0 0 0;
   box-sizing: border-box;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  align-content: space-between;
+  display: grid;
+  grid-template-columns: max-content minmax(min-content, 610px);
+  grid-template-rows: repeat(2, min-content);
+  justify-content: space-between;
 }
 
+@media screen and (max-width: 768px) {
+  .start-section {
+    grid-template-columns: minmax(min-content, 1fr);
+    padding: 40px 0;
+  }
+}
 
 @media screen and (max-width: 320px) {
   .start-section {
-    max-height: 746px;
-    padding: 40px 0;
+    grid-template-columns: minmax(min-content, 284px);
   }
 }

@@ -26,10 +26,32 @@
   opacity: 0.2;
 }
 
+@media screen and (max-width: 930px) {
+  .start-section__button {
+    margin: 50px 0 100px 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .start-section__button {
+    width: 350px;
+    height: 50px;
+    margin: 50px auto 0 auto;
+  }
+  .start-section__button::before {
+    width: 350px;
+    height: 50px;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .start-section__button {
     width: 284px;
     height: 46px;
     margin: 40px 0 0 0;
+  }
+  .start-section__button::before {
+    width: 284px;
+    height: 46px;
   }
 }
