@@ -2,3 +2,9 @@
   width: 100%;
   border-radius: 20px;
 }
+
+@media screen and (max-width: 320px) {
+  .bike__img {
+    min-width: 254.11px;
+  }
+}

@@ -3,4 +3,32 @@
   flex-direction: column;
   justify-content: space-between;
   max-width: 470px;
+  margin: 0 0 0 80px;
 }
+
+@media screen and (max-width: 1280px) {
+  .quote__container {
+    margin-left: 60px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .quote__container {
+    margin-left: 40px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .quote__container {
+    min-width: 284px;
+    margin: 40px 0 0;
+    gap: 40px;
+  }
+}
+/*
+@media screen and (max-width: 320px) {
+  .quote__container {
+    margin: 40px 0 0;
+    gap: 40px;
+  }
+}*/

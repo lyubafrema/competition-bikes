@@ -4,7 +4,7 @@
   box-sizing: border-box;
   margin: 77.05px auto 0;
   padding: 0 0 0 120px;
-  background-color: #F4F4F4;
+  background-color: #f4f4f4;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%;
@@ -16,7 +16,6 @@
 @media screen and (max-width: 1280px) {
   .page {
     padding: 0 0 0 80px;
-    margin: 0 auto;
   }
 }
 
@@ -29,5 +28,6 @@
 @media screen and (max-width: 768px) {
   .page {
     padding: 0 18px;
+    margin-top: 74px;
   }
 }

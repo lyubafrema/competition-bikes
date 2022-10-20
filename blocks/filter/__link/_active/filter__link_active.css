@@ -6,3 +6,7 @@
   color: #151515;
   opacity: 1;
 }
+
+.filter__link_active:hover {
+  opacity: 1;
+}

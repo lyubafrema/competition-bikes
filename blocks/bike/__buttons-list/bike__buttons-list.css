@@ -1,0 +1,14 @@
+.bike__buttons-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+@media screen and (max-width: 320px) {
+  .bike__buttons-list {
+    gap: 5px;
+  }
+}

@@ -1,0 +1,11 @@
+.filter-select {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .filter-select {
+    display: flex;
+    justify-content: start;
+    margin: 0 0 34.95px;
+  }
+}

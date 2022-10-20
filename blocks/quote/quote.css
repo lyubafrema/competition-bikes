@@ -1,15 +1,28 @@
 .quote {
-  padding: 120px 0 60px 0;
+  padding: 120px 120px 60px 0;
   margin: 0;
-  max-width: calc(100% - 120px);
+  max-width: 100%;
   display: flex;
-  gap: 80px;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 1280px) {
+  .quote {
+    padding-top: 80px;
+    padding-right: 80px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .quote {
+    padding-top: 40px;
+    padding-right: 40px;
+  }
 }
 
 @media screen and (max-width: 768px) {
   .quote {
-    padding: 40px 0;
+    padding: 0 0 40px;
     flex-direction: column;
-    /*gap: 40px;  */
   }
 }

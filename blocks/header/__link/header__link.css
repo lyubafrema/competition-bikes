@@ -8,6 +8,7 @@
   color: #151515;
   margin: 0;
   padding: 0;
+  transition: opacity 0.1s ease-in-out;
 }
 
 .header__link:hover {

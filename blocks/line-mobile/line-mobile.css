@@ -1,0 +1,13 @@
+.line-mobile {
+  display: none;
+}
+
+@media screen and (max-width: 320px) {
+  .line-mobile {
+    display: block;
+    width: 284px;
+    height: 0px;
+    border: 1px solid #e3e3e3;
+    margin: 40px 0 0;
+  }
+}

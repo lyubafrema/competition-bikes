@@ -1,2 +1,15 @@
-.bike__item {
+@media screen and (max-width: 1024px) {
+  .bike__item:last-child {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .bike__item:not(first-child) {
+    display: none;
+  }
+
+  .bike__item:first-child {
+    display: block;
+  }
 }
