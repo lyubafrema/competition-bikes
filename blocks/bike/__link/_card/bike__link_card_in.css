@@ -1,0 +1,11 @@
+.bike__link_card_in{
+  display: none;
+}
+
+@media screen and (max-width: 320px) {
+  .bike__link_card_in {
+    display: flex;
+    justify-content: center;
+    margin: 2.95px 0 0;
+  } 
+}

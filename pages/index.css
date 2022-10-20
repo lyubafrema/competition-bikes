@@ -13,6 +13,7 @@
 @import url();
 
 /*MAIN*/
+@import url(../blocks/line-mobile/line-mobile.css);
 
 /*SECTION 1*/
 @import url(../blocks/section/section.css);
@@ -54,11 +55,24 @@
 @import url(../blocks/bike/__border-img/bike__border-img.css);
 @import url(../blocks/bike/__img/bike__img.css);
 @import url(../blocks/bike/__link/bike__link.css);
+@import url(../blocks/bike/__link/_card/bike__link_card_in.css);
+@import url(../blocks/bike/__link/_card/bike__link_card_out.css);
+
+@import url(../blocks/bike/__buttons/bike__buttons.css);
+@import url(../blocks/bike/__buttons-list/bike__buttons-list.css);
+@import url(../blocks/bike/__button/bike__button.css);
+@import url(../blocks/bike/__button/_active/bike__button_active.css);
+
+
+
 @import url(../blocks/filter/filter.css);
 @import url(../blocks/filter/__list/filter__list.css);
 @import url(../blocks/filter/__item/filter__item.css);
 @import url(../blocks/filter/__link/filter__link.css);
 @import url(../blocks/filter/__link/_active/filter__link_active.css);
+
+@import url(../blocks/filter-select/filter-select.css);
+@import url(../blocks/filter-select/__form/filter-select__form.css);
 
 /*SECTION 5*/
 @import url(../blocks/training-section/training-section.css);

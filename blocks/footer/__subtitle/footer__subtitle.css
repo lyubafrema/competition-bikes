@@ -5,3 +5,9 @@
   color: #cfcfcf;
   margin: 0;
 }
+
+@media screen and (max-width: 360px) {
+  .footer__subtitle {
+    font-weight: 500;
+  }
+}
