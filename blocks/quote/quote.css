@@ -6,7 +6,21 @@
   box-sizing: border-box;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 1280px) {
+  .quote {
+    padding-top: 80px;
+    padding-right: 80px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .quote {
+    padding-top: 40px;
+    padding-right: 40px;
+  }
+}
+
+@media screen and (max-width: 768px) {
   .quote {
     padding: 0 0 40px;
     flex-direction: column;

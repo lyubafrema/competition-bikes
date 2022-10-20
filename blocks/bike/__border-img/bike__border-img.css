@@ -6,7 +6,7 @@
   box-shadow: -20px 60px 220px rgba(0, 0, 0, 0.44);
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 768px) {
   .bike__border-img {
     margin: 0;
     padding: 0 14.95px 16px;

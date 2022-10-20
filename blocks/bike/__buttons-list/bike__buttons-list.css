@@ -4,5 +4,11 @@
   padding: 0;
   display: flex;
   justify-content: space-between;
-  gap: 5px;
+  gap: 10px;
+}
+
+@media screen and (max-width: 320px) {
+  .bike__buttons-list {
+    gap: 5px;
+  }
 }

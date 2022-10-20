@@ -1,4 +1,10 @@
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 1024px) {
+  .bike__item:last-child {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
   .bike__item:not(first-child) {
     display: none;
   }

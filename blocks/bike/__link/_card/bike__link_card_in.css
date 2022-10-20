@@ -2,7 +2,7 @@
   display: none;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 768px) {
   .bike__link_card_in {
     display: flex;
     justify-content: center;

@@ -1,8 +1,27 @@
 .bike__list {
   list-style: none;
-  margin: 0;
+  margin: 140px 0 0;
+  width: 100%;
   padding: 0;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   gap: 30px;
+}
+
+@media screen and (max-width: 1280px) {
+  .bike__list {
+    margin-top: 100px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .bike__list {
+    margin-top: 80px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .bike__list {
+    margin-top: 0;
+  }
 }
