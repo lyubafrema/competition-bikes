@@ -6,6 +6,11 @@
   text-align: right;
   color: #222222;
   opacity: 0.7;
+  transition: opacity 0.1s ease-in-out;
+}
+
+.filter__link:hover {
+  opacity: 0.5;
 }
 
 @media screen and (max-width: 320px) {
@@ -15,5 +20,3 @@
     line-height: 127%;
   }
 }
-
-

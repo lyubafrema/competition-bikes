@@ -4,6 +4,7 @@
   font-size: 18px;
   line-height: 122%;
   color: #151515;
+  transition: opacity 0.1s ease-in-out;
 }
 
 .bike__link:hover {

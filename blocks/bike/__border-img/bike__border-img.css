@@ -1,4 +1,4 @@
-.bike__border-img{
+.bike__border-img {
   background: #f4f4f4;
   border-radius: 20px;
   margin: 0 0 22px;
@@ -7,7 +7,7 @@
 }
 
 @media screen and (max-width: 320px) {
-  .bike__border-img{
+  .bike__border-img {
     margin: 0;
     padding: 0 14.95px 16px;
   }

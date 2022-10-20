@@ -1,4 +1,4 @@
-.bike__link_card_in{
+.bike__link_card_in {
   display: none;
 }
 
@@ -7,5 +7,5 @@
     display: flex;
     justify-content: center;
     margin: 2.95px 0 0;
-  } 
+  }
 }
