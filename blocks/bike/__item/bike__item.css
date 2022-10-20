@@ -1,2 +1,9 @@
-.bike__item {
+@media screen and (max-width: 320px) {
+  .bike__item:not(first-child) {
+    display: none;
+  }
+
+  .bike__item:first-child {
+    display: block;
+  }
 }

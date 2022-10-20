@@ -9,3 +9,10 @@
 .bike__link:hover {
   opacity: 0.8;
 }
+
+@media screen and (max-width: 320px) {
+  .bike__link {
+    font-size: 14px;
+    line-height: 129%;
+  }
+}

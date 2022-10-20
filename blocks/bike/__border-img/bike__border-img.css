@@ -1,7 +1,14 @@
 .bike__border-img{
   background: #f4f4f4;
-  box-shadow: -20px 60px 220px rgba(0, 0, 0, 0.44);
   border-radius: 20px;
   margin: 0 0 22px;
   padding: 0 20px 20px;
+  box-shadow: -20px 60px 220px rgba(0, 0, 0, 0.44);
+}
+
+@media screen and (max-width: 320px) {
+  .bike__border-img{
+    margin: 0;
+    padding: 0 14.95px 16px;
+  }
 }
