@@ -1,7 +1,6 @@
 .training-section {
   max-height: 730px;
   padding: 150px 120px 120px 0;
-  box-sizing: border-box;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
