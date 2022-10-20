@@ -11,7 +11,7 @@
 
 @media screen and (max-width: 768px) {
   .start-section {
-    grid-template-columns: minmax(min-content, 1fr);
+    grid-template-columns: minmax(min-content, max-content);
     padding: 40px 0;
   }
 }
