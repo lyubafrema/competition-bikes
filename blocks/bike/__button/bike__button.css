@@ -1,10 +1,17 @@
 .bike__button {
-  width: 4px;
-  height: 4px;
+  width: 8px;
+  height: 8px;
   background: #cacaca;
   border-radius: 50%;
 }
 
 .bike__button:hover {
   opacity: 0.8;
+}
+
+@media screen and (max-width: 320px) {
+  .bike__button {
+    width: 4px;
+    height: 4px;
+  }
 }

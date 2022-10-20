@@ -13,3 +13,10 @@
     line-height: 160%;
   }
 }
+
+@media screen and (max-width: 320px) {
+  .quote__author-prof {
+    font-size: 10px;
+    line-height: 160%;
+  }
+}
