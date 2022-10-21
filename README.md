@@ -25,5 +25,5 @@ Flexbox вёрстка, Grid layout вёрстка, создана файлов�
 ---
 
 ## GitHub Pages:
-
+[https://lyubafrema.github.io/competition-bikes/]
 ###
