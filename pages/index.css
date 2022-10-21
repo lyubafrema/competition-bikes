@@ -18,6 +18,7 @@
 @import url(../blocks/section__title/_start/section__title_start.css);
 @import url(../blocks/section__subtitle/section__subtitle.css);
 @import url(../blocks/line-mobile/line-mobile.css);
+@import url(../blocks/line-mobile/_place/line-mobile_place_quote.css);
 
 /*SECTION 1*/
 @import url(../blocks/start-section/start-section.css);
