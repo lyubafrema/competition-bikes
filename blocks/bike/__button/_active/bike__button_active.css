@@ -1,3 +1,7 @@
 .bike__button_active {
   background: #151515;
 }
+
+.bike__button_active:hover {
+  background: #151515;
+}

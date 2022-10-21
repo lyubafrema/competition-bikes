@@ -25,6 +25,7 @@
 @media screen and (max-width: 768px) {
   .section__title {
     max-width: 732px;
+    font-size: 35px;
   }
 }
 
