@@ -5,19 +5,31 @@
   align-self: end;
 }
 
-@media screen and (max-width: 930px) {
+@media screen and (max-width: 1200px) {
   .training-section__links {
     margin: 120px 0 0 0;
   }
 }
 
-@media screen and (max-width: 880px) {
+@media screen and (max-width: 1048px) {
+  .training-section__links {
+    margin: 100px 0 0 0;
+  }
+}
+
+@media screen and (max-width: 900px) {
   .training-section__links {
     margin: 80px 0 0 0;
   }
 }
 
-@media screen and (max-width: 830px) {
+@media screen and (max-width: 880px) {
+  .training-section__links {
+    margin: 20px 0 0 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
   .training-section__links {
     margin: 40px 0 0 0;
   }
