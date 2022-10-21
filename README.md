@@ -15,7 +15,9 @@ https://www.figma.com/file/6HyXMeDsBXkXfg7sMfMZnx/Sprint-3-competitions-bikes?no
 При разметке использовалась методология назначения классов по БЭМ.
 ### CSS3
 Flexbox вёрстка, Grid layout вёрстка, создана файловая структура по методологии БЭМ nested.
-
+---
+В дальнейшем планируется: добавить Java Script для улучшения макета.
+---
 
 ## GitHub Pages:
 
