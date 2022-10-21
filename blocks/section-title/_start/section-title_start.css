@@ -1,9 +1,9 @@
-.section__title_start {
+.section-title_start {
   padding-top: 60px;
 }
 
 @media screen and (max-width: 768px) {
-  .section__title_start {
+  .section-title_start {
     padding: 0;
   }
 }

@@ -1,4 +1,4 @@
-.section__subtitle {
+.section-subtitle {
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -12,19 +12,19 @@
 }
 
 @media screen and (max-width: 1200px) {
-  .section__subtitle {
+  .section-subtitle {
     max-width: 350px;
   }
 }
 
 @media screen and (max-width: 1024px) {
-  .section__subtitle {
+  .section-subtitle {
     font-size: 16px;
   }
 }
 
 @media screen and (max-width: 768px) {
-  .section__subtitle {
+  .section-subtitle {
     font-size: 18px;
     max-width: 732px;
     padding: 40px 0 0 0;
@@ -32,7 +32,7 @@
 }
 
 @media screen and (max-width: 320px) {
-  .section__subtitle {
+  .section-subtitle {
     font-size: 12px;
     line-height: 1.5;
     max-width: 284px;

@@ -1,4 +1,4 @@
-.section__title {
+.section-title {
   font-style: normal;
   font-weight: 700;
   font-size: 55px;
@@ -11,26 +11,26 @@
 }
 
 @media screen and (max-width: 1200px) {
-  .section__title {
+  .section-title {
     max-width: 350px;
   }
 }
 
 @media screen and (max-width: 1024px) {
-  .section__title {
+  .section-title {
     font-size: 48px;
   }
 }
 
 @media screen and (max-width: 768px) {
-  .section__title {
+  .section-title {
     max-width: 732px;
     font-size: 35px;
   }
 }
 
 @media screen and (max-width: 320px) {
-  .section__title {
+  .section-title {
     max-width: 284px;
     font-size: 32px;
     line-height: 1.25;
