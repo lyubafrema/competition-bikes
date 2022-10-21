@@ -10,7 +10,7 @@
 
 @media screen and (max-width: 768px) {
   .training-section__image {
-    grid-row: 2 / 3;
+    grid-row: 3 / 4;
     grid-column: 1 / 1;
     margin: 40px 0;
   }

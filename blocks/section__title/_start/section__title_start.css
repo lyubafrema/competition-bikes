@@ -2,7 +2,7 @@
   padding-top: 60px;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 768px) {
   .section__title_start {
     padding: 0;
   }

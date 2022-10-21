@@ -14,6 +14,10 @@
   opacity: 0.7;
 }
 
+.footer__email::placeholder {
+  color: #151515;
+}
+
 @media screen and (max-width: 320px) {
   .footer__email {
     min-width: 284px;

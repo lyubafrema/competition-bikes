@@ -1,4 +1,4 @@
-.start-section__maybelink {
+.start-section__one-line {
   position: relative;
   font-style: normal;
   font-weight: 400;
@@ -11,7 +11,7 @@
   align-self: start;
 }
 
-.start-section__maybelink::after {
+.start-section__one-line::after {
   content: "";
   position: absolute;
   width: 132px;
@@ -22,16 +22,16 @@
 }
 
 @media screen and (max-width: 1024px) {
-  .start-section__maybelink {
+  .start-section__one-line {
     font-size: 14px;
   }
-  .start-section__maybelink::after {
+  .start-section__one-line::after {
     width: 100px;
   }
 }
 
 @media screen and (max-width: 768px) {
-  .start-section__maybelink {
+  .start-section__one-line {
     display: none;
   }
 }
