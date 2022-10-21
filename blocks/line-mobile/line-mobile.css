@@ -6,8 +6,11 @@
   .line-mobile {
     display: block;
     width: 100%;
+    min-width: 284px;
+    box-sizing: border-box;
     height: 0px;
     border: 1px solid #e3e3e3;
-    margin: 40px 0 0;
+    margin: 40px auto;
+    order: -10;
   }
 }
