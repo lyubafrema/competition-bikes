@@ -1,15 +1,27 @@
 .highway-section {
   max-width: 100%;
   margin: 0;
-  padding: 60px 0;
+  padding: 60px 0 60px 120px;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
 }
 
+@media screen and (max-width: 1280px) {
+  .highway-section {
+    padding-left: 80px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .highway-section {
+    padding-left: 40px;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .highway-section {
-    padding: 0 0 40px 0;
+    padding: 0 18px 40px 18px;
     position: relative;
   }
 }

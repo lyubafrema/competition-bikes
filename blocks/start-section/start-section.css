@@ -1,7 +1,7 @@
 .start-section {
   max-width: 100%;
   margin: 0;
-  padding: 20px 0 0 0;
+  padding: 20px 0 0 120px;
   box-sizing: border-box;
   display: grid;
   grid-template-columns: max-content minmax(min-content, 610px);
@@ -10,10 +10,22 @@
   column-gap: 10px;
 }
 
+@media screen and (max-width: 1280px) {
+  .start-section {
+    padding-left: 80px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .start-section {
+    padding-left: 40px;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .start-section {
     grid-template-columns: minmax(min-content, max-content);
-    padding: 40px 0;
+    padding: 40px 18px;
   }
 }
 

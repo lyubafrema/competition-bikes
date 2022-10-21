@@ -1,5 +1,5 @@
 .quote {
-  padding: 120px 120px 60px 0;
+  padding: 120px 120px 60px 120px;
   margin: 0;
   max-width: 100%;
   display: flex;
@@ -10,6 +10,7 @@
   .quote {
     padding-top: 80px;
     padding-right: 80px;
+    padding-left: 80px;
   }
 }
 
@@ -17,12 +18,13 @@
   .quote {
     padding-top: 40px;
     padding-right: 40px;
+    padding-left: 40px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .quote {
-    padding: 0 0 40px;
+    padding: 0 18px 40px 18px;
     flex-direction: column;
   }
 }
