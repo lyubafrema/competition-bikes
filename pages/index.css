@@ -1,5 +1,7 @@
 @import url(../vendor/normalize.css);
+
 @import url(../vendor/fonts/Inter_Web/inter.css);
+
 @import url(../blocks/root/root.css);
 @import url(../blocks/page/page.css);
 
@@ -10,16 +12,14 @@
 @import url(../blocks/header/__link/header__link.css);
 @import url(../blocks/burger-menu/burger-menu.css);
 @import url(../blocks/burger-menu/__line/burger-menu__line.css);
-@import url();
 
 /*MAIN*/
+@import url(../blocks/section__title/section__title.css);
+@import url(../blocks/section__title/_start/section__title_start.css);
+@import url(../blocks/section__subtitle/section__subtitle.css);
 @import url(../blocks/line-mobile/line-mobile.css);
 
 /*SECTION 1*/
-@import url(../blocks/section/section.css);
-@import url(../blocks/section/__title/section__title.css);
-@import url(../blocks/section/__title/_start/section__title_start.css);
-@import url(../blocks/section/__subtitle/section__subtitle.css);
 @import url(../blocks/start-section/start-section.css);
 @import url(../blocks/start-section/__container/start-section__container.css);
 @import url(../blocks/start-section/__extra-container/start-section__extra-container.css);
@@ -36,8 +36,6 @@
 @import url(../blocks/quote/__author/quote__author.css);
 @import url(../blocks/quote/__author-name/quote__author-name.css);
 @import url(../blocks/quote/__author-prof/quote__author-prof.css);
-@import url();
-@import url();
 
 /*SECTION 3 - HIGHWAY*/
 @import url(../blocks/highway-section/highway-section.css);
