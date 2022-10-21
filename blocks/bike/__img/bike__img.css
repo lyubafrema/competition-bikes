@@ -1,7 +1,14 @@
 .bike__img {
   width: 100%;
+  min-width: 340px;
   border-radius: 20px;
   object-fit: cover;
+}
+
+@media screen and (max-width: 1439px) {
+  .bike__img {
+    min-width: 256px;
+  }
 }
 
 @media screen and (max-width: 320px) {
