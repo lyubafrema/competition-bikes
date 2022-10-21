@@ -2,7 +2,7 @@
   padding: 28px 120px 28px 0;
   width: 100%;
   box-sizing: border-box;
-  position: sticky;
+  position: fixed;
   top: 0;
   left: 0;
   background-color: #f4f4f4;
