@@ -6,6 +6,12 @@
   .filter-select {
     display: flex;
     justify-content: start;
-    margin: 0 0 34.95px;
+    margin: 40px 0 34.95px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .filter-select {
+    margin-top: 0;
   }
 }
